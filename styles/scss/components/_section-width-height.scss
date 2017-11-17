@@ -1,0 +1,50 @@
+.welcome{
+  max-width: $max-width;
+  height: $max-height;
+  background: $background-grey;
+  position: relative;
+  margin: 0 auto;
+  &:before{
+    content: '';
+    top:0;
+    bottom:0;
+    left: 0;
+    right:0;
+    position: absolute;
+    background-image: url("/images/1680x950.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+section{
+  width: $max-width;
+  text-align: center;
+  padding: 100px 0 100px 0;
+  margin: 0 auto;
+}
+.steal{
+  max-width: $max-width;
+  background-color: white;
+  height: auto;
+  text-align: center;
+}
+.section-header{
+  text-align: center;
+}
+.portfolio{
+  max-width: $max-width;
+  height: auto;
+background-color: #525252;
+  color: $color-white;
+}
+.info-block{
+  height: auto;
+  background-color: #02baab;
+  padding-top: 65px;
+  padding-bottom:65px;
+}
+.block-info-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

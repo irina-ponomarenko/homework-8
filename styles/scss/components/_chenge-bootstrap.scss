@@ -1,0 +1,32 @@
+.container{
+  max-width: 930px;
+  margin: $margin-center;
+}
+.col-lg{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 930px;
+  padding-top: calc(50% - 400px);
+  padding-bottom: calc(50% - 210px);
+}
+
+.carousel-indicators{
+  li{
+    width: 22px;
+  }
+  .active{
+    background-color: $color-blue-green;
+  }
+}
+.carousel-control-prev{
+  top: 270px;
+  left: 370px;
+}
+.carousel-control-next{
+  top: 270px;
+  right: 300px;
+}
+.fa-chevron-right{
+  margin-left: 25px;
+}

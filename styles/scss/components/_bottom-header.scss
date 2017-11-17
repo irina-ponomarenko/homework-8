@@ -1,0 +1,17 @@
+.wrapper-header-bottom{
+  max-width: $max-width;
+  height: auto;
+  background-color: $background-dark-grey;
+}
+.bottom-header{
+  padding: 1rem 0 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: $width-container;
+  margin: $margin-center;
+}
+.wrapper-list{
+  display: flex;
+  flex-direction: column;
+}

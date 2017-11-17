@@ -1,0 +1,14 @@
+form{
+  display: flex;
+  max-width: 210px;
+  border: 1px solid grey;
+}
+.input-header{
+  max-width: 180px;
+  max-height: 30px;
+  outline: none;
+  background-color: transparent;
+  padding: 1em;
+  border: none;
+  color: $color-grey-blue;
+}

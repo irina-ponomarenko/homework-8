@@ -1,0 +1,47 @@
+h1{
+      font-size: $fonts-h1;
+     font-family: $font-oxygen;
+     color: $color-blue-green;
+   }
+h2{
+  font-size: $fonts-h1;
+  font-family: $font-oxygen;
+  color:$color-white;
+}
+h3{
+  font-size: $font-h3;
+  font-family: $font-oxygen;
+}
+h4{
+font-size:$fonts-h4;
+  font-family: $font-oxygen;
+  line-height: 30px;
+  margin-top: 50px;
+  margin-bottom: 17px;
+}
+.p{
+  font-size: 18px;
+  font-family: $font-oxygen;
+  line-height: 30px;
+  margin-top:47px;
+  margin-bottom: 47px;
+}
+.list-footer,
+.superb-p{
+  font-size: 14px;
+  margin: 0;
+  text-align: left;
+  font-family: $font-oxygen;
+  line-height: 24px;
+}
+span{
+  font-family: $font-oxygen;
+  font-size:11px;
+  color:#02baab;
+  text-align: left;
+}
+.block-info{
+  font-size: 1.5rem;
+  color: $color-white;
+  text-align: left;
+}

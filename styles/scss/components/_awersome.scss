@@ -1,0 +1,13 @@
+.star{
+  &:before {
+    content: '';
+    top: 20px;
+    right: 400px;
+    bottom: 0;
+    position: absolute;
+    background-image: url("/images/star.png");
+    display: block;
+    width: 31px;
+    height: 31px;
+  }
+}

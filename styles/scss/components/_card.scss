@@ -1,0 +1,19 @@
+.card-footer{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  max-width: 290px;
+  height: 71px;
+  left: 15px;
+  bottom: 71px;
+  background-color: #3d3d3d;
+  .info-autor {
+    text-align: left;
+  }
+  .like{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+

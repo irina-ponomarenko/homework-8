@@ -1,0 +1,38 @@
+.button-search{
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: none;
+  color: $color-grey-blue;
+  outline: none;
+  &:focus{
+    outline: none;
+  }
+}
+.btn{
+width: $width-button;
+  height: $heiht-button;
+  background-color: $color-blue-green;
+  font-size: 12px;
+  color: $color-white;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  margin-right: 30px;
+  &:focus{
+    outline: none;
+  }
+}
+.btn--transparent{
+  border: 1px solid $color-blue-green;
+  background-color: transparent;
+  margin-right: 0;
+}
+.btn--font-green{
+  color: $color-blue-green;
+}
+.btn--white-border{
+  width: $width-button-big;
+  border: 2px solid $color-white;
+}

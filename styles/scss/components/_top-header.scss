@@ -1,0 +1,19 @@
+header{
+  max-width: $max-width;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.wrapper-header-top{
+  max-width:$max-width;
+  background: $background-black;
+}
+.top-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  max-width: $width-container;
+  margin: $margin-center;
+  padding: 1rem 0 1rem 0;
+}
