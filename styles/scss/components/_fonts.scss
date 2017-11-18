@@ -12,12 +12,16 @@ h3{
   font-size: $font-h3;
   font-family: $font-oxygen;
 }
-h4{
+.h4{
 font-size:$fonts-h4;
   font-family: $font-oxygen;
   line-height: 30px;
   margin-top: 50px;
   margin-bottom: 17px;
+}
+.blog--h4{
+  margin: 0;
+  color: $color-blue-green;
 }
 .p{
   font-size: 18px;

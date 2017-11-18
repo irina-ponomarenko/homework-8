@@ -11,7 +11,7 @@
     left: 0;
     right:0;
     position: absolute;
-    background-image: url("/images/1680x950.png");
+    background-image: url("../../images/1680-950.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -34,7 +34,8 @@ section{
 .portfolio{
   max-width: $max-width;
   height: auto;
-background-color: #525252;
+  background-image: url("../../images/1680-740.png");
+  background-size: cover;
   color: $color-white;
 }
 .info-block{
@@ -49,7 +50,9 @@ background-color: #525252;
   align-items: center;
 }
 .blockquote{
-  background: $background-grey-section;
+  background-image: url("../../images/1680-450.png");
+  background-size: cover;
+  background-position: center;
   img{
     margin-top: 43px;
   }

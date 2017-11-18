@@ -1,11 +1,50 @@
 .star{
   &:before {
     content: '';
-    top: 20px;
-    right: 400px;
+    top: 0;
+    right: 385px;
     bottom: 0;
     position: absolute;
-    background-image: url("/images/star.png");
+    background-image: url("../../images/star.png");
+    display: block;
+    width: 31px;
+    height: 31px;
+  }
+}
+.cloud{
+  &:before {
+    content: '';
+    top: 0;
+    right: 385px;
+    bottom: 0;
+    position: absolute;
+    background-image: url("../../images/cloud.png");
+    display: block;
+    width: 31px;
+    height: 31px;
+  }
+}
+.pen-star{
+  &:before {
+    content: '';
+    top: 0;
+    right: 385px;
+    bottom: 0;
+    position: absolute;
+    background-image: url("../../images/pen-star.png");
+    display: block;
+    width: 31px;
+    height: 31px;
+  }
+}
+.priz{
+  &:before {
+    content: '';
+    top: 0;
+    right: 385px;
+    bottom: 0;
+    position: absolute;
+    background-image: url("../../images/priz.png");
     display: block;
     width: 31px;
     height: 31px;

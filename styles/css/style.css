@@ -277,7 +277,7 @@ form {
 
 .superb-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: left;
 }
 
@@ -315,6 +315,7 @@ form {
 
 .container {
   max-width: 930px;
+  padding: 0;
   margin: 0 auto;
 }
 
@@ -365,12 +366,17 @@ h3 {
   font-family: "Oxygen", sans-serif;
 }
 
-h4 {
+.h4 {
   font-size: 24px;
   font-family: "Oxygen", sans-serif;
   line-height: 30px;
   margin-top: 50px;
   margin-bottom: 17px;
+}
+
+.blog--h4 {
+  margin: 0;
+  color: #02baab;
 }
 
 .p {
@@ -431,7 +437,7 @@ span {
   left: 0;
   right: 0;
   position: absolute;
-  background-image: url("/images/1680x950.png");
+  background-image: url("../../images/1680-950.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -457,7 +463,8 @@ section {
 .portfolio {
   max-width: 100%;
   height: auto;
-  background-color: #525252;
+  background-image: url("../../images/1680-740.png");
+  background-size: cover;
   color: white;
 }
 
@@ -475,7 +482,9 @@ section {
 }
 
 .blockquote {
-  background: #666666;
+  background-image: url("../../images/1680-450.png");
+  background-size: cover;
+  background-position: center;
 }
 .blockquote img {
   margin-top: 43px;
@@ -518,6 +527,19 @@ h3:after {
   justify-content: space-around;
 }
 
+.card--blog {
+  flex-direction: column;
+  height: 235px;
+  bottom: 0;
+  background: white;
+  border-bottom: 1px solid grey;
+  padding: 0;
+}
+
+.col-sm img {
+  display: block;
+}
+
 .col-hover {
   display: none;
   position: absolute;
@@ -534,11 +556,47 @@ h3:after {
 
 .star:before {
   content: '';
-  top: 20px;
-  right: 400px;
+  top: 0;
+  right: 385px;
   bottom: 0;
   position: absolute;
-  background-image: url("/images/star.png");
+  background-image: url("../../images/star.png");
+  display: block;
+  width: 31px;
+  height: 31px;
+}
+
+.cloud:before {
+  content: '';
+  top: 0;
+  right: 385px;
+  bottom: 0;
+  position: absolute;
+  background-image: url("../../images/cloud.png");
+  display: block;
+  width: 31px;
+  height: 31px;
+}
+
+.pen-star:before {
+  content: '';
+  top: 0;
+  right: 385px;
+  bottom: 0;
+  position: absolute;
+  background-image: url("../../images/pen-star.png");
+  display: block;
+  width: 31px;
+  height: 31px;
+}
+
+.priz:before {
+  content: '';
+  top: 0;
+  right: 385px;
+  bottom: 0;
+  position: absolute;
+  background-image: url("../../images/priz.png");
   display: block;
   width: 31px;
   height: 31px;
@@ -548,6 +606,7 @@ blockquote {
   max-width: 664px;
   text-align: center;
   margin: 0 auto;
+  margin-top: 43px;
 }
 
 blockquote:before {
@@ -558,8 +617,9 @@ blockquote:before {
   color: #02baab;
   position: relative;
   margin: 0 auto;
-  background: url("/images/11.png");
+  background: url("../../images/11.png");
   display: block;
   width: 36px;
   height: 44px;
+  bottom: 43px;
 }

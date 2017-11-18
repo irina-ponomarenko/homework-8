@@ -1,5 +1,6 @@
 .container{
   max-width: 930px;
+  padding: 0;
   margin: $margin-center;
 }
 .col-lg{
@@ -19,6 +20,7 @@
     background-color: $color-blue-green;
   }
 }
+
 .carousel-control-prev{
   top: 270px;
   left: 370px;

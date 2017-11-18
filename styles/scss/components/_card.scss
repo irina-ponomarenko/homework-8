@@ -16,4 +16,12 @@
     justify-content: space-around;
   }
 }
+.card--blog{
+  flex-direction: column;
+  height: 235px;
+  bottom:0;
+  background: $color-white;
+  border-bottom: 1px solid grey;
+  padding: 0;
+}
 
