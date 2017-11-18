@@ -1,0 +1,18 @@
+blockquote{
+  max-width: 664px;
+  text-align: center;
+  margin: 0 auto;
+}
+blockquote:before{
+  content:'';
+  font-size:24pt;
+  text-align:center;
+  line-height: 42px;
+  color:#02baab;
+  position: relative;
+  margin: 0 auto;
+  background: url("/images/11.png");
+  display: block;
+  width:36px;
+  height: 44px;
+}

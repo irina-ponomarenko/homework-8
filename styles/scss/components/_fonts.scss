@@ -26,6 +26,13 @@ font-size:$fonts-h4;
   margin-top:47px;
   margin-bottom: 47px;
 }
+.citate{
+  font-size: 24px;
+  color: $color-white;
+  font-family: $font-oxygen;
+  line-height: 30px;
+  margin-bottom: 21px;
+}
 .list-footer,
 .superb-p{
   font-size: 14px;
@@ -33,6 +40,11 @@ font-size:$fonts-h4;
   text-align: left;
   font-family: $font-oxygen;
   line-height: 24px;
+}
+.blockquote-p{
+  font-size:18px;
+  color:#02baab;
+  font-family: $font-lato;
 }
 span{
   font-family: $font-oxygen;

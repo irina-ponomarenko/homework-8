@@ -48,3 +48,9 @@ background-color: #525252;
   justify-content: space-between;
   align-items: center;
 }
+.blockquote{
+  background: $background-grey-section;
+  img{
+    margin-top: 43px;
+  }
+}

@@ -381,6 +381,14 @@ h4 {
   margin-bottom: 47px;
 }
 
+.citate {
+  font-size: 24px;
+  color: white;
+  font-family: "Oxygen", sans-serif;
+  line-height: 30px;
+  margin-bottom: 21px;
+}
+
 .list-footer,
 .superb-p {
   font-size: 14px;
@@ -388,6 +396,12 @@ h4 {
   text-align: left;
   font-family: "Oxygen", sans-serif;
   line-height: 24px;
+}
+
+.blockquote-p {
+  font-size: 18px;
+  color: #02baab;
+  font-family: "Lato", sans-serif;
 }
 
 span {
@@ -460,6 +474,13 @@ section {
   align-items: center;
 }
 
+.blockquote {
+  background: #666666;
+}
+.blockquote img {
+  margin-top: 43px;
+}
+
 .btn-wrapper {
   display: flex;
   justify-content: space-between;
@@ -521,4 +542,24 @@ h3:after {
   display: block;
   width: 31px;
   height: 31px;
+}
+
+blockquote {
+  max-width: 664px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+blockquote:before {
+  content: '';
+  font-size: 24pt;
+  text-align: center;
+  line-height: 42px;
+  color: #02baab;
+  position: relative;
+  margin: 0 auto;
+  background: url("/images/11.png");
+  display: block;
+  width: 36px;
+  height: 44px;
 }
