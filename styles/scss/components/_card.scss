@@ -24,4 +24,18 @@
   border-bottom: 1px solid grey;
   padding: 0;
 }
-
+.card-company{
+  position: absolute;
+  border: none;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+}
+.card-team{
+  padding: 0;
+  background-color: white;
+  max-width: 210px;
+  left: 0;
+  bottom: 120px;
+  height: auto;
+}

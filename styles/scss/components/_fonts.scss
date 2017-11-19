@@ -72,3 +72,17 @@ span{
   color: $color-white;
   text-align: left;
 }
+.company-h4{
+  font-family: $font-oxygen;
+  font-size: 48px;
+}
+.company-p{
+  white-space: nowrap;
+  font-size: 18px;
+  color: $color-white;
+  font-family: $font-oxygen;
+  line-height: 24px;
+}
+.company-p-wrap{
+  white-space: normal;
+}

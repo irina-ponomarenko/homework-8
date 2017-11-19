@@ -80,14 +80,35 @@ section{
   display: flex;
   justify-content: space-between;
   margin-top: 47px;
+  position: relative;
 }
 .company-col{
+  display: flex;
+  align-items: center;
   max-width: 215px;
+  height: 215px;
+  border-radius: 215px;
+  border: 3px solid white;
 }
 .company-bg{
+  display: flex;
+  align-items: center;
   width: 100px;
   height: 100px;
   background: black;
   border-radius: 100px;
   margin: 0 auto;
+}
+.dots{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.col-team{
+  padding: 0;
+  max-width: 210px;
+}
+.team-mg{
+  display: flex;
+  justify-content: space-between;
 }

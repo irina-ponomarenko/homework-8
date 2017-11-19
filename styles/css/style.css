@@ -349,6 +349,11 @@ form {
   margin-left: 25px;
 }
 
+.row {
+  max-width: 930px;
+  margin: 0 auto;
+}
+
 h1 {
   font-size: 60px;
   font-family: "Oxygen", sans-serif;
@@ -435,6 +440,23 @@ span {
   font-size: 1.5rem;
   color: white;
   text-align: left;
+}
+
+.company-h4 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 48px;
+}
+
+.company-p {
+  white-space: nowrap;
+  font-size: 18px;
+  color: white;
+  font-family: "Oxygen", sans-serif;
+  line-height: 24px;
+}
+
+.company-p-wrap {
+  white-space: normal;
 }
 
 .welcome {
@@ -531,18 +553,42 @@ section {
   display: flex;
   justify-content: space-between;
   margin-top: 47px;
+  position: relative;
 }
 
 .company-col {
+  display: flex;
+  align-items: center;
   max-width: 215px;
+  height: 215px;
+  border-radius: 215px;
+  border: 3px solid white;
 }
 
 .company-bg {
+  display: flex;
+  align-items: center;
   width: 100px;
   height: 100px;
   background: black;
   border-radius: 100px;
   margin: 0 auto;
+}
+
+.dots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col-team {
+  padding: 0;
+  max-width: 210px;
+}
+
+.team-mg {
+  display: flex;
+  justify-content: space-between;
 }
 
 .btn-wrapper {
@@ -589,6 +635,23 @@ h3:after {
   background: white;
   border-bottom: 1px solid grey;
   padding: 0;
+}
+
+.card-company {
+  position: absolute;
+  border: none;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-team {
+  padding: 0;
+  background-color: white;
+  max-width: 210px;
+  left: 0;
+  bottom: 120px;
+  height: auto;
 }
 
 .col-sm img {
@@ -662,9 +725,11 @@ h3:after {
   text-decoration: none;
 }
 
-.fa-cogs {
+.fa-cogs,
+.fa-phone,
+.fa-rocket,
+.fa-circle {
   color: white;
-  padding: 5px;
 }
 
 blockquote {
@@ -697,4 +762,33 @@ blockquote:before {
 .card-list-blog a:visited {
   color: #6d0fae;
   text-decoration: none;
+}
+
+.fa-cogs-pd {
+  margin: 0 auto;
+}
+
+.fa-circle-mg {
+  margin-left: 20px;
+}
+.fa-circle-mg:first-child {
+  margin: 0;
+}
+
+.pd {
+  top: 235px;
+  left: 0;
+  right: 0;
+}
+
+.col-mg {
+  margin-bottom: 124px;
+}
+
+.dots-mg {
+  margin-bottom: 86px;
+}
+
+.top-team {
+  margin-top: 50px;
 }
