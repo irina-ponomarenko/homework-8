@@ -21,7 +21,9 @@ font-size:$fonts-h4;
 }
 .blog--h4{
   margin: 0;
-  color: $color-blue-green;
+}
+.company-h4{
+  color: $color-white;
 }
 .p{
   font-size: 18px;
@@ -38,12 +40,21 @@ font-size:$fonts-h4;
   margin-bottom: 21px;
 }
 .list-footer,
-.superb-p{
+.superb-p,
+.blog-p{
   font-size: 14px;
   margin: 0;
   text-align: left;
   font-family: $font-oxygen;
   line-height: 24px;
+}
+.blog-p{
+  margin: 31px 0 0 0;
+}
+.coment-p{
+  color: $color-black;
+  margin: 0;
+  margin-left: 5px;
 }
 .blockquote-p{
   font-size:18px;

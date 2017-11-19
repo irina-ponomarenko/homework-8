@@ -12,6 +12,7 @@
     right:0;
     position: absolute;
     background-image: url("../../images/1680-950.png");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -35,6 +36,7 @@ section{
   max-width: $max-width;
   height: auto;
   background-image: url("../../images/1680-740.png");
+  background-position: center;
   background-size: cover;
   color: $color-white;
 }
@@ -56,4 +58,36 @@ section{
   img{
     margin-top: 43px;
   }
+}
+.coment{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 25px;
+}
+.coments{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.card-list-blog{
+  margin-top: 71px;
+}
+.company{
+   background-color: #02baab;
+}
+.company-row{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 47px;
+}
+.company-col{
+  max-width: 215px;
+}
+.company-bg{
+  width: 100px;
+  height: 100px;
+  background: black;
+  border-radius: 100px;
+  margin: 0 auto;
 }

@@ -376,7 +376,10 @@ h3 {
 
 .blog--h4 {
   margin: 0;
-  color: #02baab;
+}
+
+.company-h4 {
+  color: white;
 }
 
 .p {
@@ -396,12 +399,23 @@ h3 {
 }
 
 .list-footer,
-.superb-p {
+.superb-p,
+.blog-p {
   font-size: 14px;
   margin: 0;
   text-align: left;
   font-family: "Oxygen", sans-serif;
   line-height: 24px;
+}
+
+.blog-p {
+  margin: 31px 0 0 0;
+}
+
+.coment-p {
+  color: #000000;
+  margin: 0;
+  margin-left: 5px;
 }
 
 .blockquote-p {
@@ -438,6 +452,7 @@ span {
   right: 0;
   position: absolute;
   background-image: url("../../images/1680-950.png");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -464,6 +479,7 @@ section {
   max-width: 100%;
   height: auto;
   background-image: url("../../images/1680-740.png");
+  background-position: center;
   background-size: cover;
   color: white;
 }
@@ -488,6 +504,45 @@ section {
 }
 .blockquote img {
   margin-top: 43px;
+}
+
+.coment {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 25px;
+}
+
+.coments {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.card-list-blog {
+  margin-top: 71px;
+}
+
+.company {
+  background-color: #02baab;
+}
+
+.company-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 47px;
+}
+
+.company-col {
+  max-width: 215px;
+}
+
+.company-bg {
+  width: 100px;
+  height: 100px;
+  background: black;
+  border-radius: 100px;
+  margin: 0 auto;
 }
 
 .btn-wrapper {
@@ -602,6 +657,16 @@ h3:after {
   height: 31px;
 }
 
+.fa-comments:visited {
+  color: #6d0fae;
+  text-decoration: none;
+}
+
+.fa-cogs {
+  color: white;
+  padding: 5px;
+}
+
 blockquote {
   max-width: 664px;
   text-align: center;
@@ -622,4 +687,14 @@ blockquote:before {
   width: 36px;
   height: 44px;
   bottom: 43px;
+}
+
+.card-list-blog a:link {
+  color: #02baab;
+  text-decoration: none;
+}
+
+.card-list-blog a:visited {
+  color: #6d0fae;
+  text-decoration: none;
 }

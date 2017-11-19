@@ -50,3 +50,13 @@
     height: 31px;
   }
 }
+.fa-comments{
+  &:visited{
+    color: $color-violet;
+    text-decoration: none;
+  }
+}
+.fa-cogs{
+  color: $color-white;
+  padding: 5px;
+}
