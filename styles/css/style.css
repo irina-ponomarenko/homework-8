@@ -110,6 +110,8 @@ form {
   background-color: #02baab;
   font-size: 12px;
   color: white;
+  font-weight: 400;
+  font-family: "Oxygen", sans-serif;
   text-transform: uppercase;
   outline: none;
   border: none;
@@ -121,13 +123,16 @@ form {
 }
 
 .btn--transparent {
-  border: 1px solid #02baab;
+  border: 2px solid #02baab;
   background-color: transparent;
   margin-right: 0;
 }
 
 .btn--font-green {
   color: #02baab;
+}
+.btn--font-green:focus {
+  outline: none;
 }
 
 .btn--white-border {
@@ -417,6 +422,18 @@ h3 {
   margin: 31px 0 0 0;
 }
 
+.top-p {
+  text-align: center;
+  color: #02baab;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.top-span {
+  color: grey;
+  white-space: nowrap;
+}
+
 .coment-p {
   color: #000000;
   margin: 0;
@@ -431,7 +448,7 @@ h3 {
 
 span {
   font-family: "Oxygen", sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   color: #02baab;
   text-align: left;
 }
@@ -583,12 +600,21 @@ section {
 
 .col-team {
   padding: 0;
-  max-width: 210px;
+  max-width: 212px;
+  height: auto;
+  border: 1px solid #cccccc;
 }
 
 .team-mg {
   display: flex;
   justify-content: space-between;
+}
+
+.top-block {
+  background-color: white;
+  position: relative;
+  border: 1px solid #cccccc;
+  max-width: 138px;
 }
 
 .btn-wrapper {
@@ -619,7 +645,7 @@ h3:after {
   bottom: 71px;
   background-color: #3d3d3d;
 }
-.card-footer .info-autor {
+.card-footer .text-left {
   text-align: left;
 }
 .card-footer .like {
@@ -651,7 +677,7 @@ h3:after {
   max-width: 210px;
   left: 0;
   bottom: 120px;
-  height: auto;
+  height: 150px;
 }
 
 .col-sm img {
@@ -791,4 +817,16 @@ blockquote:before {
 
 .top-team {
   margin-top: 50px;
+}
+
+.text-center {
+  text-align: center;
+  padding-bottom: 2rem;
+  margin: 0 15px 0 15px;
+}
+
+.top-mg {
+  margin: 0 auto;
+  bottom: 35px;
+  padding: 15px;
 }

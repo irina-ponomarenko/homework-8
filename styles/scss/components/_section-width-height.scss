@@ -106,9 +106,17 @@ section{
 }
 .col-team{
   padding: 0;
-  max-width: 210px;
+  max-width: 212px;
+  height: auto;
+  border: 1px solid #cccccc;
 }
 .team-mg{
   display: flex;
   justify-content: space-between;
+}
+.top-block{
+  background-color: white;
+  position: relative;
+  border: 1px solid #cccccc;
+  max-width: 138px;
 }

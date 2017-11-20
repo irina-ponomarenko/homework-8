@@ -1,3 +1,4 @@
+
 .button-search{
   width: 30px;
   height: 30px;
@@ -15,6 +16,8 @@ width: $width-button;
   background-color: $color-blue-green;
   font-size: 12px;
   color: $color-white;
+  font-weight: 400;
+  font-family: $font-oxygen;
   text-transform: uppercase;
   outline: none;
   border: none;
@@ -25,12 +28,15 @@ width: $width-button;
   }
 }
 .btn--transparent{
-  border: 1px solid $color-blue-green;
+  border: 2px solid $color-blue-green;
   background-color: transparent;
   margin-right: 0;
 }
 .btn--font-green{
   color: $color-blue-green;
+  &:focus{
+    outline: none;
+  }
 }
 .btn--white-border{
   width: $width-button-big;

@@ -51,6 +51,16 @@ font-size:$fonts-h4;
 .blog-p{
   margin: 31px 0 0 0;
 }
+.top-p{
+  text-align: center;
+  color:$color-blue-green;
+  margin: 0;
+  white-space: nowrap;
+}
+.top-span{
+  color:grey;
+  white-space:nowrap;
+}
 .coment-p{
   color: $color-black;
   margin: 0;
@@ -63,7 +73,7 @@ font-size:$fonts-h4;
 }
 span{
   font-family: $font-oxygen;
-  font-size:11px;
+  font-size:12px;
   color:#02baab;
   text-align: left;
 }
