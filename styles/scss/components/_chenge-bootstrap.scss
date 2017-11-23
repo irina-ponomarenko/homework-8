@@ -8,10 +8,7 @@
   align-items: center;
   flex-direction: column;
   max-width: 930px;
-  padding-top: calc(50% - 400px);
-  padding-bottom: calc(50% - 210px);
 }
-
 .carousel-indicators{
   li{
     width: 22px;
@@ -20,14 +17,16 @@
     background-color: $color-blue-green;
   }
 }
-
+.carousel{
+  margin-bottom: 50px;
+}
 .carousel-control-prev{
-  top: 270px;
-  left: 370px;
+  top: 330px;
+  left: 360px;
 }
 .carousel-control-next{
-  top: 270px;
-  right: 300px;
+  top: 330px;
+  right: 320px;
 }
 .fa-chevron-right{
   margin-left: 25px;

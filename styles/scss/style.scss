@@ -4,11 +4,11 @@
 @import "base/variables";
 @import "base/mixins";
 //components
-@import "components/top-header";
+@import "layout/top-header";
 @import "components/input-style";
 @import "components/button";
 @import "components/list";
-@import "components/bottom-header";
+@import "layout/bottom-header";
 @import "components/chenge-bootstrap";
 @import "components/fonts";
 @import "components/section-width-height";
@@ -20,3 +20,4 @@
 @import "components/blockquote";
 @import "components/links";
 @import "components/margin-padding";
+@import "components/progress-bar";

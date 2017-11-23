@@ -1,41 +1,111 @@
-.card-footer{
-  display: flex;
-  position: relative;
-  justify-content: space-between;
+.wrapper-img{
   max-width: 290px;
-  height: 71px;
-  left: 15px;
-  bottom: 71px;
-  background-color: #3d3d3d;
-  .text-left {
-    text-align: left;
-  }
-  .like{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  height:auto;
+  position:relative;
+}
+.card-element{
+  margin-right: 30px;
+  max-width:290px;
+  &:last-child{
+    margin-right: 0;
   }
 }
-.card--blog{
-  flex-direction: column;
-  height: 235px;
-  bottom:0;
-  background: $color-white;
-  border-bottom: 1px solid grey;
-  padding: 0;
+.card-border{
+  border-bottom: 1px solid $color-lightgrey;
 }
-.card-company{
-  position: absolute;
-  border: none;
-  background: transparent;
+.card-list{
   display: flex;
+  width:100%;
+}
+.info-autor{
+  display:block;
+}
+.wrapper-img{
+  max-width: 290px;
+  img{
+    max-width: 290px;
+    height:auto;
+  }
+}
+.card-info-wrapper{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 290px;
+  height: auto;
+  bottom:0;
+  background-color: #3d3d3d;
+  position: absolute;
+}
+
+.card-footer{
+  background-color: $color-white;
+  position: relative;
   flex-direction: column;
+  padding:0;
+  border-top: none;
+  border-right: 1px solid $color-light-grey;
 }
 .card-team{
-  padding: 0;
-  background-color: white;
-  max-width: 210px;
-  left: 0;
-  bottom: 120px;
-  height: 150px;
+  position: absolute;
+  bottom: 0;
+max-width: 210px;
 }
+.company-info{
+  margin-top: 32px;
+  background: transparent;
+  border:none;
+}
+.card-info{
+  padding:10px;
+  align-items: center;
+  .left{
+   display: flex;
+    align-items: flex-start;
+  }
+}
+.card-info-col{
+  padding: 0;
+  margin-top: 27px;
+}
+.like{
+  padding:10px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.like-row{
+  padding: 0;
+  margin-bottom: 27px;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+  a{
+    color:$color-blue-green;
+  }
+}
+.comments{
+  flex-direction: row;
+}
+
+.wrapper-hover-card{
+  background:rgba(0,0,0,0.6);
+  display: none;
+  width: 290px;
+  height: auto;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+.wrapper-img:hover {
+  .card-info-wrapper {
+    display: none;
+  }
+  .wrapper-hover-card {
+    display:flex;
+  }
+}
+
+

@@ -51,6 +51,7 @@
   }
 }
 .fa-comments{
+  color: $color-blue-green;
   &:visited{
     color: $color-violet;
     text-decoration: none;
@@ -61,5 +62,8 @@
 .fa-rocket,
 .fa-circle{
   color: $color-white;
+}
+.fa-heart{
+  margin-bottom: 5px;
 }
 

@@ -1,16 +1,10 @@
-.card-list-blog{
-  a {
-    &:link {
-      color: $color-blue-green;
-      text-decoration: none;
-    }
-  }
-}
-.card-list-blog{
+.card-footer{
   a{
-  &:visited {
-    color: $color-violet;
-    text-decoration: none;
-  }
+    &:link{
+      color: $color-blue-green;
+    }
+    &:visited{
+      color: $color-violet;
+    }
   }
 }

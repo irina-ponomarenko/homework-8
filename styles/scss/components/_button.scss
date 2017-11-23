@@ -42,3 +42,11 @@ width: $width-button;
   width: $width-button-big;
   border: 2px solid $color-white;
 }
+.btn-mrg{
+  margin: 20px 37px 20px 36px;
+  &:hover{
+    .info-autor{
+      display: none;
+    }
+  }
+}

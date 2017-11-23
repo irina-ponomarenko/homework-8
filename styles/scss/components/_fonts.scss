@@ -15,22 +15,41 @@ h3{
 .h4{
 font-size:$fonts-h4;
   font-family: $font-oxygen;
+  color: $color-blue-green;
   line-height: 30px;
-  margin-top: 50px;
-  margin-bottom: 17px;
 }
+.h4-left{
+  text-align: left;
+}
+
 .blog--h4{
   margin: 0;
 }
 .company-h4{
   color: $color-white;
 }
-.p{
+p{
   font-size: 18px;
   font-family: $font-oxygen;
-  line-height: 30px;
-  margin-top:47px;
-  margin-bottom: 47px;
+  line-height: 24px;
+}
+.p{
+  margin: 50px 0 50px 0;
+}
+.top-p{
+  font-size: 14px;
+  white-space: nowrap;
+  color: $color-blue-green;
+}
+.list-footer{
+  font-size: 12px;
+}
+.card-p{
+  text-align: left;
+  font-size: 14px;
+}
+.card-info-p{
+  margin: 20px 0 20px 0;
 }
 .citate{
   font-size: 24px;
@@ -39,24 +58,7 @@ font-size:$fonts-h4;
   line-height: 30px;
   margin-bottom: 21px;
 }
-.list-footer,
-.superb-p,
-.blog-p{
-  font-size: 14px;
-  margin: 0;
-  text-align: left;
-  font-family: $font-oxygen;
-  line-height: 24px;
-}
-.blog-p{
-  margin: 31px 0 0 0;
-}
-.top-p{
-  text-align: center;
-  color:$color-blue-green;
-  margin: 0;
-  white-space: nowrap;
-}
+
 .top-span{
   color:grey;
   white-space:nowrap;
@@ -66,6 +68,7 @@ font-size:$fonts-h4;
   margin: 0;
   margin-left: 5px;
 }
+
 .blockquote-p{
   font-size:18px;
   color:#02baab;
@@ -77,6 +80,9 @@ span{
   color:#02baab;
   text-align: left;
 }
+.font-black{
+  color: $color-black;
+}
 .block-info{
   font-size: 1.5rem;
   color: $color-white;
@@ -87,7 +93,6 @@ span{
   font-size: 48px;
 }
 .company-p{
-  white-space: nowrap;
   font-size: 18px;
   color: $color-white;
   font-family: $font-oxygen;
