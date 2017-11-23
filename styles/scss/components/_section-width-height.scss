@@ -23,6 +23,18 @@ section{
     background-size: cover;
   }
 }
+.welcome-blog{
+  padding: 60px 0 60px;
+  background-image: url("../../images/blog.png");
+}
+.navigation-welcome{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.header-blog{
+  margin-top: 37px;
+}
 .steal{
   max-width: $max-width;
   background-color: white;

@@ -176,6 +176,17 @@ form {
   color: white;
 }
 
+.circul {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #1f2a32;
+  margin-right: 10px;
+}
+.circul i {
+  margin-top: 2px;
+}
+
 .list-header {
   display: flex;
 }
@@ -193,6 +204,10 @@ form {
 .list-header a:hover {
   text-decoration: none;
   color: #85939f;
+}
+
+.navigation-welcome-left li {
+  margin-left: 1rem;
 }
 
 .navigation {
@@ -347,6 +362,19 @@ a:hover {
   border-top: 15px solid orange;
 }
 
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user:first-child {
+  margin-left: 0;
+}
+
+.about-user a {
+  font-size: 14px;
+}
+
 .container {
   max-width: 930px;
   padding: 0;
@@ -400,6 +428,11 @@ h2 {
   font-size: 60px;
   font-family: "Oxygen", sans-serif;
   color: white;
+}
+
+.blog-h2 {
+  font-size: 36px;
+  text-align: left;
 }
 
 h3 {
@@ -563,6 +596,21 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.welcome-blog {
+  padding: 60px 0 60px;
+  background-image: url("../../images/blog.png");
+}
+
+.navigation-welcome {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.header-blog {
+  margin-top: 37px;
 }
 
 .steal {

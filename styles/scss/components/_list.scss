@@ -17,6 +17,11 @@ display: flex;
     }
   }
 }
+.navigation-welcome-left{
+  li {
+    margin-left: 1rem;
+  }
+}
 .navigation{
   display: flex;
   li{
@@ -66,7 +71,6 @@ display: flex;
 
   }
 }
-
   .card-list-style {
     display: flex;
     align-items: center;
@@ -135,3 +139,16 @@ display: flex;
       border-top: 15px solid nth($col, $i);
     }
   }
+.user{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &:first-child{
+    margin-left: 0;
+  }
+}
+.about-user{
+  a {
+    font-size: 14px;
+  }
+}
