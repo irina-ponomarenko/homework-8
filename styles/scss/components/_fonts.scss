@@ -41,7 +41,7 @@ p{
   line-height: 24px;
 }
 .footer-p{
-  font-size: 12px;
+  font-size: 14px;
   text-transform: none;
   margin-bottom: 20px;
   i{
@@ -51,6 +51,9 @@ p{
   a{
     color:$color-blue-green;
   }
+}
+.copyright{
+max-width: 234px;
 }
 .p{
   margin: 50px 0 50px 0;

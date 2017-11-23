@@ -3,3 +3,10 @@
   background-color: $background-dark-blue;
   padding-bottom: 30px;
 }
+.footer-bottom{
+  padding: 60px 0 60px 0;
+}
+.container-footer{
+  display: flex;
+  justify-content: space-between;
+}

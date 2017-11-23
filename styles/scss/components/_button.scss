@@ -44,6 +44,10 @@ width: $width-button;
   width: $width-button-big;
   border: 2px solid $color-white;
 }
+.btn-footer{
+  text-transform: none;
+  width: 155px;
+}
 .btn-mrg{
   margin: 20px 37px 20px 36px;
   &:hover{

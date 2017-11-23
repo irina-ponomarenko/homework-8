@@ -163,6 +163,11 @@ form {
   border: 2px solid white;
 }
 
+.btn-footer {
+  text-transform: none;
+  width: 155px;
+}
+
 .btn-mrg {
   margin: 20px 37px 20px 36px;
 }
@@ -436,7 +441,7 @@ p {
 }
 
 .footer-p {
-  font-size: 12px;
+  font-size: 14px;
   text-transform: none;
   margin-bottom: 20px;
 }
@@ -446,6 +451,10 @@ p {
 }
 .footer-p a {
   color: #02baab;
+}
+
+.copyright {
+  max-width: 234px;
 }
 
 .p {
@@ -881,6 +890,11 @@ h3:after {
   margin-bottom: 5px;
 }
 
+.fa-chevron-up {
+  color: #02baab;
+  margin: 0 10px 0 10px;
+}
+
 blockquote {
   max-width: 664px;
   text-align: center;
@@ -1147,4 +1161,13 @@ blockquote:before {
   color: white;
   background-color: #1f2a32;
   padding-bottom: 30px;
+}
+
+.footer-bottom {
+  padding: 60px 0 60px 0;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
 }
