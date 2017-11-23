@@ -44,12 +44,12 @@
   flex-direction: column;
   padding:0;
   border-top: none;
-  border-right: 1px solid $color-light-grey;
 }
 .card-team{
   position: absolute;
+  top:160px;
   bottom: 0;
-max-width: 210px;
+  max-width: 210px;
 }
 .company-info{
   margin-top: 32px;

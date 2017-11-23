@@ -27,11 +27,30 @@ font-size:$fonts-h4;
 }
 .company-h4{
   color: $color-white;
+  font-family: $font-oxygen;
+  font-size: 48px;
+}
+.footer-h4{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: $font-oxygen;
 }
 p{
   font-size: 18px;
   font-family: $font-oxygen;
   line-height: 24px;
+}
+.footer-p{
+  font-size: 12px;
+  text-transform: none;
+  margin-bottom: 20px;
+  i{
+    color: $color-blue-green;
+    margin-right: 10px;
+  }
+  a{
+    color:$color-blue-green;
+  }
 }
 .p{
   margin: 50px 0 50px 0;
@@ -71,14 +90,20 @@ p{
 
 .blockquote-p{
   font-size:18px;
-  color:#02baab;
+  color:$color-blue-green;
   font-family: $font-lato;
 }
 span{
   font-family: $font-oxygen;
   font-size:12px;
-  color:#02baab;
+  color:$color-blue-green;
   text-align: left;
+}
+.info-footer {
+  .ft-span {
+    margin-left: 5px;
+    color: $color-lightgrey;
+  }
 }
 .font-black{
   color: $color-black;
@@ -87,10 +112,6 @@ span{
   font-size: 1.5rem;
   color: $color-white;
   text-align: left;
-}
-.company-h4{
-  font-family: $font-oxygen;
-  font-size: 48px;
 }
 .company-p{
   font-size: 18px;

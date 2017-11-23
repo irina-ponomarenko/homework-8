@@ -116,3 +116,22 @@ display: flex;
     height: auto;
     position: relative;
   }
+.list-footer-top{
+  display: flex;
+  li{
+    text-transform: uppercase;
+    text-align: left;
+    margin: $margin-center;
+    line-height: 70px;
+    padding:0 1em 0 1em;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
+  @each $color in $col {
+    $i: index($col, $color);
+    .list-footer-top > :nth-child(#{$i}) {
+      border-top: 15px solid nth($col, $i);
+    }
+  }

@@ -1,4 +1,6 @@
-
+*, :hover, :focus, :active{
+  outline:none;
+}
 .button-search{
   width: 30px;
   height: 30px;
@@ -45,8 +47,7 @@ width: $width-button;
 .btn-mrg{
   margin: 20px 37px 20px 36px;
   &:hover{
-    .info-autor{
-      display: none;
-    }
+      background-color: $color-blue-green;
+    color: $color-white;
   }
 }

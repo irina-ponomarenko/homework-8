@@ -107,7 +107,13 @@ section{
 .info-autor{
   height: auto;
   min-width: 210px;
+  border-right: 1px solid #cccccc;
 }
 .bottom-footer{
+  max-width: 210px;
   height: 103px;
+}
+.card-bottom{
+  width: 210px;
+  border-right: 1px solid #cccccc;
 }

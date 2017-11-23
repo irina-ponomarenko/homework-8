@@ -13,9 +13,15 @@ $max-height: 100vh;
 $heiht-button: 40px;
 
 //background
+$background-crimson:#a30834;
+$background-dark-red: #c4302b;
+$background-brown: #825c48;
+$background-blue-sky: #00a0d1;
+$backgroun-grey-blue: #3b5998;
 $background-grey: #7f7f7f;
 $background-grey-section: #666666;
 $background-dark-grey: #474747;
+$background-dark-blue: #1f2a32;
 $background-black: #000000;
 
 //text-color
@@ -28,7 +34,8 @@ $color-blue-green: #02baab;
 $color-violet: #6d0fae;
 $color-black: #000000;
 
-$colors: orange, orangered, crimson, violet, purple, darkblue,lightblue;
+$colors: orange, orangered, crimson, mediumvioletred, purple, darkblue,dodgerblue;
+$col:purple,dodgerblue,crimson,orange;
 $orange: orange;
 $orangered: orangered;
 $crimson: crimson;
