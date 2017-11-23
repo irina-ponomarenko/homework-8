@@ -26,6 +26,11 @@ section{
 .welcome-blog{
   padding: 60px 0 60px;
   background-image: url("../../images/blog.png");
+  background-size: cover;
+}
+.welcome-blog-post{
+  background-image: url("../../images/blog-2.png");
+  background-size: cover;
 }
 .navigation-welcome{
   display: flex;
@@ -128,4 +133,19 @@ section{
 .card-bottom{
   width: 210px;
   border-right: 1px solid #cccccc;
+}
+.info-section{
+  display: flex;
+  justify-content: space-around;
+}
+.right-column-info{
+  flex-direction: column;
+  max-width: 210px;
+  margin-left: 10px;
+}
+.center-info{
+  max-width: 690px;
+}
+.work-list{
+  display: block;
 }

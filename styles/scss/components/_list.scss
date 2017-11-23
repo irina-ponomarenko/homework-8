@@ -152,3 +152,43 @@ display: flex;
     font-size: 14px;
   }
 }
+.list-category{
+  width: 210px;
+  position: relative;
+  margin-bottom: 20px;
+  .category-li{
+    text-align: left;
+   padding: 15px 0 15px 30px;
+    border-bottom: 1px solid $color-light-grey;
+    &:last-child{
+      border-bottom: none;
+    }
+    a{
+      color: $color-blue-green;
+    }
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      right: 30px;
+      left: 0;
+      background-image: url("../../images/bookmark.png");
+    }
+  }
+}
+.list-category{
+  .comments-li{
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      right: 30px;
+      left: 0;
+      background-image: url("../../images/quote.png");
+    }
+  }
+}
