@@ -28,3 +28,29 @@
     margin-bottom: 0;
   }
 }
+.social-list-category{
+  display:flex;
+}
+.social-li{
+  width:32px;
+  height:32px;
+  padding-top: 5px;
+  text-align: center;
+  margin-right:10px;
+  &:last-child{
+    margin-right: 0;
+  }
+}
+.fb-li{
+  background-color:$backgroun-grey-blue;
+}
+.tw-li{
+  background-color: $background-blue-sky;
+}
+.em-li,
+.pr-li{
+  background-color:$background-lightgreen;
+}
+.pl-li{
+  background-color: $background-creamorange;
+}

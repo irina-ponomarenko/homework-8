@@ -95,7 +95,7 @@ header {
   flex-direction: column;
 }
 
-form {
+.top-header form {
   display: flex;
   max-width: 210px;
   border: 1px solid grey;
@@ -109,6 +109,33 @@ form {
   padding: 1em;
   border: none;
   color: #85939f;
+}
+
+#reviews-identefication {
+  font-size: 14px;
+  font-family: "Oxygen", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#reviews-identefication .form-col {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#reviews-identefication .form-col label {
+  margin-top: 20px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+#reviews-identefication .form-col input {
+  min-width: 223px;
+  width: 100%;
+}
+
+.text-area {
+  width: 100%;
+  min-height: 117px;
 }
 
 *, :hover, :focus, :active {
@@ -161,6 +188,14 @@ form {
 .btn-white-border {
   width: 168px;
   border: 2px solid white;
+}
+
+.btn-comment {
+  width: 140px;
+  height: 40px;
+  align-self: flex-end;
+  background-color: white;
+  margin: 20px 0 20px 0;
 }
 
 .btn-footer {
@@ -439,6 +474,28 @@ a:hover {
   margin-right: 0;
 }
 
+.date-coment {
+  margin-top: 20px;
+  display: flex;
+  position: relative;
+}
+
+.comment-mounth {
+  max-width: 192px;
+  margin-right: 55px;
+  padding-top: 18px;
+}
+.comment-mounth:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 9px;
+  top: 0;
+  bottom: 36px;
+  background-image: url("../../images/calend.jpg");
+}
+
 .container {
   max-width: 930px;
   padding: 0;
@@ -568,6 +625,14 @@ p {
 
 .p {
   margin: 50px 0 50px 0;
+}
+
+.date {
+  font-size: 12px;
+}
+
+.date-span {
+  color: #02baab;
 }
 
 .top-p {
@@ -719,6 +784,15 @@ section {
   text-align: center;
 }
 
+.reviews-section {
+  background-color: #ebf0f3;
+  padding-top: 40px;
+}
+
+.reviews-container {
+  max-width: 690px;
+}
+
 .portfolio {
   max-width: 100%;
   height: auto;
@@ -856,11 +930,22 @@ section {
 .regestration-info {
   color: #02baab;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
+  align-items: center;
+  margin: 20px 0 20px 0;
 }
 .regestration-info a {
   color: #02baab;
+}
+
+.tags {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.tags a {
+  margin: 0 10px 0 10px;
 }
 
 .btn-wrapper {
@@ -1118,6 +1203,48 @@ blockquote {
   color: #6d0fae;
 }
 
+.comments-text {
+  width: 100%;
+  height: auto;
+  border: 3px solid #cccccc;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.comments-mg-left {
+  margin-left: 30px;
+  border: none;
+  max-width: 660px;
+}
+
+.info-comments {
+  display: flex;
+  justify-content: space-between;
+}
+.info-comments h4, .info-comments a {
+  color: #02baab;
+  font-size: 14px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+}
+
+.comments-people {
+  width: 100%;
+  border-bottom: 1px solid #cccccc;
+}
+
+.date-post {
+  margin-bottom: 10px;
+}
+.date-post h4 {
+  text-align: left;
+}
+.date-post span {
+  font-size: 11px;
+  color: #cccccc;
+}
+
 .fa-cogs-pd {
   margin: 0 auto;
 }
@@ -1174,6 +1301,8 @@ blockquote {
 
 .all-content-mrg {
   margin: 0;
+  color: #000000;
+  margin-left: 10px;
 }
 
 .progress {
@@ -1361,6 +1490,38 @@ blockquote {
 }
 .fb-icon:last-child {
   margin-bottom: 0;
+}
+
+.social-list-category {
+  display: flex;
+}
+
+.social-li {
+  width: 32px;
+  height: 32px;
+  padding-top: 5px;
+  text-align: center;
+  margin-right: 10px;
+}
+.social-li:last-child {
+  margin-right: 0;
+}
+
+.fb-li {
+  background-color: #3b5998;
+}
+
+.tw-li {
+  background-color: #00a0d1;
+}
+
+.em-li,
+.pr-li {
+  background-color: #738a8d;
+}
+
+.pl-li {
+  background-color: #f8694d;
 }
 
 .footer {

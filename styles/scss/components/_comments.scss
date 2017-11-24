@@ -1,0 +1,37 @@
+.comments-text{
+  width: 100%;
+  height: auto;
+  border: 3px solid $color-light-grey;
+  background-color: $color-white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.comments-mg-left{
+  margin-left: 30px;
+  border: none;
+  max-width: 660px;
+}
+.info-comments {
+  display: flex;
+  justify-content: space-between;
+  h4, a {
+    color: $color-blue-green;
+    font-size: 14px;
+    font-family: $font-oxygen;
+    font-weight: 400;
+  }
+}
+.comments-people{
+  width: 100%;
+  border-bottom: 1px solid $color-light-grey;
+}
+.date-post{
+  margin-bottom: 10px;
+  h4{
+    text-align: left;
+  }
+    span{
+      font-size: 11px;
+      color:$color-light-grey;
+    }
+}

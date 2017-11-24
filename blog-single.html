@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400" rel="stylesheet">
     <link href="styles/css/style.css" rel="stylesheet"/>
     <title>Amber-Blog-Single</title>
-    <link rel="stylesheet" href="styles/scss/components/_section-width-height.scss">
+    <link rel="stylesheet" href="styles/scss/layout/_section-width-height.scss">
 </head>
 <body>
 <header class="header">
@@ -150,6 +150,37 @@
                     <a href="">onmousover tag</a>
                 </div>
             </div>
+            <ul class="social-list-category">
+                <li class="social-li fb-li">
+                    <a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                </li>
+                <li class="social-li tw-li">
+                    <a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                </li>
+                <li class="social-li em-li">
+                    <a href=""><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+                </li>
+                <li class="social-li pr-li">
+                    <a href=""><i class="fa fa-print fa-2x" aria-hidden="true"></i></a>
+                </li>
+                <li class="social-li pl-li">
+                    <a href=""><i class="fa fa-plus fa-2x" aria-hidden="true"></i></a>
+                </li>
+                <li class="signature"><a href=""><img src="images/signature.jpg" alt=""></a></li>
+            </ul>
+            <h4 class="category-h4 central-h4">Related posts</h4>
+            <ul class="date-coment">
+                <li class="comment-mounth">
+                    <p class="date">June 24</p>
+                    <span class="date date-span">The hope of a young naval lieutenant bravely patrolling</span>
+                </li>
+                <li class="comment-mounth">
+                    <p class="date">August 8</p>
+                    <span class="date date-span">Politicians routinely exploited fears of crime Christian Coalition</span></li>
+                <li class="comment-mounth">
+                    <p class="date">August 13</p>
+                    <span class="date date-span">There was even a time when the Christian Coalition determined that its number one</span></li>
+            </ul>
             </div>
         <div class="right-column-info">
             <div class="categories">
@@ -227,7 +258,70 @@
         </div>
     </div>
 </section>
-
+<section class="reviews-section">
+    <div class="container">
+        <div class="reviews-container">
+            <h4 class="category-h4">Add comment</h4>
+            <form id="reviews-identefication">
+                <div class="form-col">
+                <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-col">
+                    <label for="email">Email</label>
+                    <input type="email" name="name" id="email">
+                </div>
+                <div class="form-col">
+                    <label for="web">Website(optional)</label>
+                    <input type="text" name="name" id="web">
+                </div>
+                <div class="form-col text-area">
+                    <label for="textarea">Messege</label>
+                    <textarea id="textarea" rows="10"></textarea>
+                    <button class="btn btn--transparent btn--font-green btn-comment">ADD COMMENT</button>
+                </div>
+            </form>
+            <h4 class="category-h4">24 Coments</h4>
+            <div class="comments-text">
+            <div class="comments-people">
+                <div class="info-comments">
+                    <div class="date-post">
+                        <h4>Administrator</h4>
+                        <span>September 12, 2013@ 1:36 pm</span>
+                    </div>
+                    <h4><a href="">Reply</a></h4>
+                </div>
+            </div>
+            <p class="card-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, voluptatem optio quasi labore
+                consequuntur repellendus perspiciatis error ipsa fuga. Quasi veniam.</p>
+        </div>
+            <div class="comments-text comments-mg-left">
+                <div class="comments-people">
+                    <div class="info-comments">
+                        <div class="date-post">
+                            <h4>Alina</h4>
+                            <span>September 12, 2013@ 1:36 pm</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="card-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, voluptatem optio quasi labore
+                    consequuntur repellendus perspiciatis error ipsa fuga. Quasi veniam.</p>
+            </div>
+            <div class="comments-text">
+                <div class="comments-people">
+                    <div class="info-comments">
+                        <div class="date-post">
+                            <h4>Administrator</h4>
+                            <span>September 12, 2013@ 1:36 pm</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="card-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, voluptatem optio quasi labore
+                    consequuntur repellendus perspiciatis error ipsa fuga. Quasi veniam.</p>
+            </div>
+        </div>
+    </div>
+</section>
 <footer class="footer">
     <div class="container">
         <ul class="row list-footer-top">

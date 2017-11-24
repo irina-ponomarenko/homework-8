@@ -50,6 +50,13 @@ section{
   margin-bottom: 71px;
   text-align: center;
 }
+.reviews-section{
+  background-color: $background-blue-white;
+  padding-top: 40px;
+}
+.reviews-container{
+  max-width: 690px;
+}
 .portfolio{
   max-width: $max-width;
   height: auto;
@@ -165,9 +172,19 @@ section{
 .regestration-info{
   color:$color-blue-green;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
+  align-items: center;
+  margin: 20px 0 20px 0;
   a{
     color: $color-blue-green;
+  }
+}
+.tags{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  a{
+    margin: 0 10px 0 10px;
   }
 }

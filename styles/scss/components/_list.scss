@@ -202,3 +202,23 @@ display: flex;
     }
   }
 }
+.date-coment{
+  margin-top: 20px;
+  display: flex;
+  position: relative;
+}
+.comment-mounth {
+  max-width: 192px;
+  margin-right: 55px;
+  padding-top: 18px;
+  &:before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 9px;
+    top:0;
+    bottom: 36px;
+    background-image: url("../../images/calend.jpg");
+  }
+}

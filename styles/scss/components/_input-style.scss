@@ -1,7 +1,9 @@
-form{
-  display: flex;
-  max-width: 210px;
-  border: 1px solid grey;
+.top-header {
+  form{
+    display: flex;
+    max-width: 210px;
+    border: 1px solid grey;
+  }
 }
 .input-header{
   max-width: 180px;
@@ -11,4 +13,30 @@ form{
   padding: 1em;
   border: none;
   color: $color-grey-blue;
+}
+#reviews-identefication{
+  font-size: 14px;
+  font-family: $font-oxygen;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .form-col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    label {
+      margin-top:20px;
+      text-align: left;
+      margin-bottom: 5px;
+    }
+    input{
+      min-width: 223px;
+      width: 100%;
+    }
+  }
+}
+.text-area{
+  width: 100%;
+  min-height: 117px;
+
 }
