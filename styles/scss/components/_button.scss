@@ -40,13 +40,27 @@ width: $width-button;
     outline: none;
   }
 }
-.btn--white-border{
+.btn-white-border{
   width: $width-button-big;
   border: 2px solid $color-white;
 }
 .btn-footer{
   text-transform: none;
   width: 155px;
+}
+.btn-grey-border{
+  border: 1px solid $color-lightgrey;
+  text-transform: none;
+  color: $color-blue-green;
+  font-size: 12px;
+  padding:9px;
+  background-color: transparent;
+  font-family: $font-oxygen;
+  &:hover{
+    color:$color-white;
+    background: $color-blue-green;
+    border: none;
+  }
 }
 .btn-mrg{
   margin: 20px 37px 20px 36px;

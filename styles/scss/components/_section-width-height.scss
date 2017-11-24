@@ -144,8 +144,30 @@ section{
   margin-left: 10px;
 }
 .center-info{
+  text-align: left;
   max-width: 690px;
+}
+.information-center{
+  border-bottom: 1px solid $color-light-grey;
 }
 .work-list{
   display: block;
+}
+.buttons{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  button{
+    margin-top: 7px;
+    margin-right: 6px;
+  }
+}
+.regestration-info{
+  color:$color-blue-green;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  a{
+    color: $color-blue-green;
+  }
 }

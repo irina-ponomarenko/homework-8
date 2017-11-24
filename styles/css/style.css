@@ -158,7 +158,7 @@ form {
   outline: none;
 }
 
-.btn--white-border {
+.btn-white-border {
   width: 168px;
   border: 2px solid white;
 }
@@ -166,6 +166,21 @@ form {
 .btn-footer {
   text-transform: none;
   width: 155px;
+}
+
+.btn-grey-border {
+  border: 1px solid #7f7f7f;
+  text-transform: none;
+  color: #02baab;
+  font-size: 12px;
+  padding: 9px;
+  background-color: transparent;
+  font-family: "Oxygen", sans-serif;
+}
+.btn-grey-border:hover {
+  color: white;
+  background: #02baab;
+  border: none;
 }
 
 .btn-mrg {
@@ -413,6 +428,17 @@ a:hover {
   background-image: url("../../images/quote.png");
 }
 
+.photo-list {
+  display: flex;
+  margin-bottom: 40px;
+}
+.photo-list li {
+  margin-right: 30px;
+}
+.photo-list li:last-child {
+  margin-right: 0;
+}
+
 .container {
   max-width: 930px;
   padding: 0;
@@ -517,6 +543,12 @@ p {
   line-height: 24px;
 }
 
+.all-content {
+  font-size: 14px;
+  font-family: "Oxygen", sans-serif;
+  margin-bottom: 40px;
+}
+
 .footer-p {
   font-size: 14px;
   text-transform: none;
@@ -542,6 +574,13 @@ p {
   font-size: 14px;
   white-space: nowrap;
   color: #02baab;
+}
+
+.citation {
+  font-size: 24px;
+  color: #c69c6d;
+  font-family: "Oxygen", sans-serif;
+  line-height: 36px;
 }
 
 .list-footer {
@@ -580,6 +619,11 @@ p {
   font-size: 18px;
   color: #02baab;
   font-family: "Lato", sans-serif;
+}
+
+.blockquote-p-new {
+  font-size: 14px;
+  color: #c69c6d;
 }
 
 span {
@@ -787,11 +831,36 @@ section {
 }
 
 .center-info {
+  text-align: left;
   max-width: 690px;
+}
+
+.information-center {
+  border-bottom: 1px solid #cccccc;
 }
 
 .work-list {
   display: block;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.buttons button {
+  margin-top: 7px;
+  margin-right: 6px;
+}
+
+.regestration-info {
+  color: #02baab;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.regestration-info a {
+  color: #02baab;
 }
 
 .btn-wrapper {
@@ -1019,7 +1088,7 @@ blockquote {
   margin-top: 43px;
 }
 
-blockquote:before {
+.blockquote-font:before {
   content: '';
   font-size: 24pt;
   text-align: center;
@@ -1032,6 +1101,14 @@ blockquote:before {
   width: 36px;
   height: 44px;
   bottom: 43px;
+}
+
+.citates {
+  padding-left: 15px;
+  margin-left: 30px;
+  border-left: 2px solid #cccccc;
+  text-align: left;
+  margin-bottom: 30px;
 }
 
 .card-footer a:link {
@@ -1089,6 +1166,14 @@ blockquote:before {
 
 .slide-h4 {
   margin-bottom: 20px;
+}
+
+.central-h4 {
+  margin-top: 40px;
+}
+
+.all-content-mrg {
+  margin: 0;
 }
 
 .progress {

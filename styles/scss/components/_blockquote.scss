@@ -4,7 +4,7 @@ blockquote{
   margin: 0 auto;
   margin-top: 43px;
 }
-blockquote {
+.blockquote-font {
   &:before {
     content: '';
     font-size: 24pt;
@@ -19,4 +19,11 @@ blockquote {
     height: 44px;
     bottom: 43px;
   }
+}
+.citates{
+  padding-left: 15px;
+  margin-left: 30px;
+  border-left: 2px solid $color-light-grey;
+  text-align: left;
+  margin-bottom: 30px;
 }

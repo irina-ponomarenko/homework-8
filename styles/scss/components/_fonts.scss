@@ -21,6 +21,8 @@ h3{
   font-size: $font-h4-left;
   text-align: left;
 }
+.content-h4{
+}
 .h4{
 font-size:$fonts-h4;
   font-family: $font-oxygen;
@@ -49,6 +51,11 @@ p{
   font-family: $font-oxygen;
   line-height: 24px;
 }
+.all-content{
+  font-size: 14px;
+  font-family: $font-oxygen;
+  margin-bottom: 40px;
+}
 .footer-p{
   font-size: 14px;
   text-transform: none;
@@ -71,6 +78,12 @@ max-width: 234px;
   font-size: 14px;
   white-space: nowrap;
   color: $color-blue-green;
+}
+.citation{
+  font-size: 24px;
+  color:$color-light-brown;
+  font-family: $font-oxygen;
+  line-height: 36px;
 }
 .list-footer{
   font-size: 12px;
@@ -104,6 +117,10 @@ max-width: 234px;
   font-size:18px;
   color:$color-blue-green;
   font-family: $font-lato;
+}
+.blockquote-p-new{
+  font-size: 14px;
+  color: $color-light-brown;
 }
 span{
   font-family: $font-oxygen;

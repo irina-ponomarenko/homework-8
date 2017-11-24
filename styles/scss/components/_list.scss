@@ -192,3 +192,13 @@ display: flex;
     }
   }
 }
+.photo-list{
+  display: flex;
+  margin-bottom: 40px;
+  li{
+    margin-right: 30px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
