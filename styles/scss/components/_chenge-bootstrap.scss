@@ -10,6 +10,11 @@
   flex-direction: column;
   max-width: 930px;
 }
+.col-sm {
+  padding: 0;
+  max-width: 290px;
+  height: auto;
+}
 .carousel-indicators{
   li{
     width: 22px;
@@ -17,6 +22,12 @@
   .active{
     background-color: $color-blue-green;
   }
+}
+.bg-light{
+  background: $background-dark-grey !important;
+}
+.navbar{
+  padding-top: 0 !important;
 }
 .carousel{
   margin-bottom: 50px;

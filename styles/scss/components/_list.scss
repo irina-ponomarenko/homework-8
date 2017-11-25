@@ -10,7 +10,7 @@ display: flex;
     margin-left: 0;
   }
   a{
-    color: $color-grey-blue;
+    color: $color-grey-blue !important;;
     &:hover{
       text-decoration: none;
       color: $color-grey-blue;
@@ -36,7 +36,7 @@ display: flex;
     }
   }
   a{
-    color:$color-white;
+    color:$color-white !important;
     font-size: 12px;
     font-family: $font-oxygen;
     &:hover{
@@ -165,7 +165,7 @@ display: flex;
       border-bottom: none;
     }
     a{
-      color: $color-blue-green;
+      color: $color-blue-green !important;
     }
     &:before{
       content: '';
@@ -253,4 +253,18 @@ display: flex;
       color: $orange;
     }
   }
+}
+.dots{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  li{
+    margin-right: 10px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
+.dots-mg{
+  margin-bottom: 100px;
 }
