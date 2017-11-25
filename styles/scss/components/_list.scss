@@ -232,7 +232,7 @@ display: flex;
     }
   }
   a{
-    color:$color-blue-green;
+    color:$color-blue-green !important;
     padding-top: 10px;
     &:hover{
       color: $color-black;

@@ -541,7 +541,7 @@ a:hover {
   margin-right: 0;
 }
 .portfolio-list-nav a {
-  color: #02baab;
+  color: #02baab !important;
   padding-top: 10px;
 }
 .portfolio-list-nav a:hover {
