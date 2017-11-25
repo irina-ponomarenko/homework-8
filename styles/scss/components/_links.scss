@@ -8,3 +8,12 @@
     }
   }
 }
+.link-bottom{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  a,i{
+    color:$color-blue-green;
+  }
+}

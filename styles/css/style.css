@@ -237,6 +237,38 @@ header {
   margin-top: 2px;
 }
 
+.button-nav {
+  display: flex;
+  justify-content: flex-start;
+}
+.button-nav .nav-btn-bar {
+  outline: none;
+  background: transparent;
+  width: 38px;
+  height: 38px;
+  border: 2px solid #cccccc;
+}
+.button-nav .nav-btn-bar:hover {
+  border: 2px solid orange;
+}
+.button-nav .nav-btn-bar i {
+  text-align: center;
+  color: orange;
+  padding: 0;
+  margin: 0;
+}
+
+.btn-bottom {
+  display: flex;
+  align-items: flex-start;
+  width: 98px;
+  height: 36px;
+  border: 2px solid orange;
+  color: orange;
+  margin-top: 50px;
+  outline: none;
+}
+
 .list-header {
   display: flex;
 }
@@ -341,6 +373,9 @@ a:hover {
   position: relative;
 }
 
+.card-list {
+  margin-top: 30px;
+}
 .card-list:hover .col-hover {
   display: block;
 }
@@ -496,6 +531,39 @@ a:hover {
   background-image: url("../../images/calend.jpg");
 }
 
+.portfolio-list-nav {
+  display: flex;
+}
+.portfolio-list-nav li {
+  margin-right: 10px;
+}
+.portfolio-list-nav li:last-child {
+  margin-right: 0;
+}
+.portfolio-list-nav a {
+  color: #02baab;
+  padding-top: 10px;
+}
+.portfolio-list-nav a:hover {
+  color: #000000;
+  border-top: 3px solid #cccccc;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.description li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: "Oxygen", sans-serif;
+}
+.description li i {
+  margin-right: 10px;
+  color: orange;
+}
+
 .container {
   max-width: 930px;
   padding: 0;
@@ -520,13 +588,13 @@ a:hover {
   margin-bottom: 50px;
 }
 
-.carousel-control-prev {
-  top: 330px;
+.chenge-prev {
+  top: 360px;
   left: 360px;
 }
 
-.carousel-control-next {
-  top: 330px;
+.chenge-next {
+  top: 360px;
   right: 320px;
 }
 
@@ -588,6 +656,12 @@ h3 {
   font-size: 48px;
 }
 
+.title-h4 {
+  font-size: 14px;
+  color: orange;
+  margin: 20px 0 20px 0;
+}
+
 .footer-h4 {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -604,6 +678,15 @@ p {
   font-size: 14px;
   font-family: "Oxygen", sans-serif;
   margin-bottom: 40px;
+  text-align: left;
+}
+
+.portfolio-p {
+  text-align: left;
+  color: #000000;
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .footer-p {
@@ -737,6 +820,7 @@ section {
   background: #7f7f7f;
   position: relative;
   margin: 0 auto;
+  min-height: 950px;
 }
 .welcome:before {
   content: '';
@@ -800,6 +884,11 @@ section {
   background-position: center;
   background-size: cover;
   color: white;
+}
+
+.all-portfolio {
+  background-color: white;
+  background-image: none;
 }
 
 .info-block {
@@ -908,6 +997,9 @@ section {
   text-align: left;
   max-width: 690px;
 }
+.center-info .carousel {
+  width: 100%;
+}
 
 .information-center {
   border-bottom: 1px solid #cccccc;
@@ -946,6 +1038,33 @@ section {
 }
 .tags a {
   margin: 0 10px 0 10px;
+}
+
+.all-portfolio {
+  padding-top: 0;
+}
+
+.like-title {
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row !important;
+}
+.like-title i {
+  color: #cccccc;
+  margin-right: 10px;
+}
+
+.welcome-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 10%;
+  margin-top: 10%;
 }
 
 .btn-wrapper {
@@ -1203,6 +1322,16 @@ blockquote {
   color: #6d0fae;
 }
 
+.link-bottom {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.link-bottom a, .link-bottom i {
+  color: #02baab;
+}
+
 .comments-text {
   width: 100%;
   height: auto;
@@ -1303,6 +1432,11 @@ blockquote {
   margin: 0;
   color: #000000;
   margin-left: 10px;
+}
+
+.soc-list-center {
+  display: flex;
+  justify-content: center;
 }
 
 .progress {
@@ -1505,6 +1639,13 @@ blockquote {
 }
 .social-li:last-child {
   margin-right: 0;
+}
+
+.social-title {
+  text-align: center;
+  width: 15px;
+  height: 15px;
+  padding-top: 0;
 }
 
 .fb-li {

@@ -79,6 +79,7 @@ display: flex;
     }
   }
   .card-list {
+    margin-top: 30px;
     &:hover {
       .col-hover {
         display: block;
@@ -220,5 +221,36 @@ display: flex;
     top:0;
     bottom: 36px;
     background-image: url("../../images/calend.jpg");
+  }
+}
+.portfolio-list-nav{
+  display: flex;
+  li{
+    margin-right: 10px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+  a{
+    color:$color-blue-green;
+    padding-top: 10px;
+    &:hover{
+      color: $color-black;
+      border-top: 3px solid $color-light-grey;
+    }
+  }
+}
+.description{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  li{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: $font-oxygen;
+    i{
+      margin-right: 10px;
+      color: $orange;
+    }
   }
 }

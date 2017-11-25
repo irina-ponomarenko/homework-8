@@ -41,6 +41,11 @@ font-size:$fonts-h4;
   font-family: $font-oxygen;
   font-size: 48px;
 }
+.title-h4{
+  font-size: 14px;
+  color: $orange;
+  margin: 20px 0 20px 0;
+}
 .footer-h4{
   margin-top: 20px;
   margin-bottom: 20px;
@@ -55,6 +60,14 @@ p{
   font-size: 14px;
   font-family: $font-oxygen;
   margin-bottom: 40px;
+  text-align: left;
+}
+.portfolio-p{
+  text-align: left;
+  color: $color-black;
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .footer-p{
   font-size: 14px;

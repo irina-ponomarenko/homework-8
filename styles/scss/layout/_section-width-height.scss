@@ -10,6 +10,7 @@ section{
   background: $background-grey;
   position: relative;
   margin: 0 auto;
+  min-height: 950px;
   &:before{
     content: '';
     top:0;
@@ -64,6 +65,10 @@ section{
   background-position: center;
   background-size: cover;
   color: $color-white;
+}
+.all-portfolio{
+  background-color: $color-white;
+  background-image: none;
 }
 .info-block{
   height: auto;
@@ -153,6 +158,9 @@ section{
 .center-info{
   text-align: left;
   max-width: 690px;
+  .carousel{
+    width: 100%;
+  }
 }
 .information-center{
   border-bottom: 1px solid $color-light-grey;
@@ -187,4 +195,29 @@ section{
   a{
     margin: 0 10px 0 10px;
   }
+}
+.all-portfolio{
+  padding-top: 0;
+}
+.like-title{
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row !important;
+
+  i{
+    color:$color-light-grey;
+    margin-right: 10px;
+  }
+}
+.welcome-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 10%;
+  margin-top: 10%;
 }
