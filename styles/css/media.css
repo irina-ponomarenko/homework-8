@@ -14,11 +14,14 @@
         margin-bottom: 20px;
         width: 100%;
     }
-    .card-footer{
-        width: 100%;
-    }
     .card-info-wrapper{
         width: 100%;
+    }
+    .superb-list{
+        margin-bottom: 20px;
+    }
+    .superb-list:last-child{
+        margin-bottom: 0;
     }
     .superb-p{
         font-size: 14px;
@@ -51,10 +54,10 @@
         font-size: 20px;
     }
     .wrapper-img{
-        max-width: 200px;
+        width: 100%;
     }
     .wrapper-img img{
-        max-width: 200px;
+        width: 100%;
         height: auto;
     }
     .right-column-info{
@@ -95,8 +98,7 @@
       width: 100%;
     }
     .card-element{
-        margin: 0 auto;
-        margin-right: 0;
+        margin-right: 30px;
     }
 }
 @media screen and (min-width:300px) and (max-width:500px) {
@@ -115,10 +117,41 @@
         font-size: 12px;
     }
 }
+@media screen and (min-width:300px) and (max-width:575px) {
+    .card-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card-list li:last-child{
+        margin-right: 30px;
+    }
+    .priz:before{
+        display: none;
+    }
+    .cloud:before{
+        display: none;
+    }
+}
 @media screen and (min-width:300px) and (max-width:560px) {
     .latest-work{
         display: none;
     }
+}
+@media screen and (min-width:300px) and (max-width:575px) {
+    .dots{
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+    .dots li{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .dots li:last-child{
+        margin-bottom: 0;
+    }
+
 }
 @media screen and (min-width:300px) and (max-width:500px) {
     h1{
@@ -127,16 +160,6 @@
     }
     h2{
         font-size: 20px;
-    }
-    .card-element{
-        margin: 0 auto;
-    }
-    .card-element li{
-        margin-left: 30px;
-    }
-    .card-list .col-sm{
-        display: flex;
-        justify-content: center;
     }
     .wrapper-img{
         width: 100%;
@@ -177,8 +200,8 @@
     .card-element{
         margin: 0 auto;
     }
-    .card-element{
-        margin-left: 30px;
+    .card-list li:last-child{
+        margin-right: auto;
     }
 }
 @media screen and (min-width:300px) and (max-width:390px) {

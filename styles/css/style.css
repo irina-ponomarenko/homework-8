@@ -185,7 +185,7 @@ header {
   outline: none;
 }
 
-.btn-white-border {
+.btn--white-border {
   width: 168px;
   border: 2px solid white;
 }
