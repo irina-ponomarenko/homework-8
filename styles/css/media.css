@@ -13,6 +13,12 @@
     }
 }
 @media screen and (min-width:300px) and (max-width:852px) {
+    .card-p{
+        font-size:.7em;
+    }
+    .card-info span{
+        font-size: 10px;
+    }
     .col-team{
         margin-bottom: 20px;
     }
