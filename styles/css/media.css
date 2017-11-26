@@ -2,6 +2,15 @@
     body {
         width: 90%;
     }
+    .navigation li{
+        max-width: 100px;
+        width: 100%;
+        padding: 0;
+        line-height: 30px;
+    }
+    .navigation li:last-child{
+        margin-right: auto;
+    }
 }
 @media screen and (min-width:300px) and (max-width:852px) {
     .col-team{
