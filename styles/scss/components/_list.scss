@@ -181,6 +181,8 @@ display: flex;
 }
 .list-category{
   .comments-li{
+    text-align: left;
+    padding: 10px 0 10px 0;
     &:before{
       content: '';
       display: block;

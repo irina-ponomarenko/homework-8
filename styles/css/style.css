@@ -487,6 +487,10 @@ a:hover {
   background-image: url("../../images/bookmark.png");
 }
 
+.list-category .comments-li {
+  text-align: left;
+  padding: 10px 0 10px 0;
+}
 .list-category .comments-li:before {
   content: '';
   display: block;
@@ -837,6 +841,13 @@ span {
   white-space: normal;
 }
 
+.p-categiryes {
+  margin-left: 25px;
+  font-size: 12px;
+  color: #000000;
+  text-align: left;
+}
+
 section {
   width: 100%;
   text-align: center;
@@ -1061,6 +1072,7 @@ section {
   align-items: center;
 }
 .tags a {
+  color: #02baab !important;
   margin: 0 10px 0 10px;
 }
 
@@ -1451,6 +1463,10 @@ blockquote {
 .soc-list-center {
   display: flex;
   justify-content: center;
+}
+
+.left-content {
+  margin-left: 30px;
 }
 
 .progress {
