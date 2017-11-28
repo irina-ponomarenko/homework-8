@@ -98,6 +98,7 @@ header {
 .top-header form {
   display: flex;
   max-width: 210px;
+  height: auto;
   border: 1px solid grey;
 }
 
@@ -143,8 +144,8 @@ header {
 }
 
 .button-search {
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   border: none;
   background: none;
   color: #85939f;
@@ -152,6 +153,10 @@ header {
 }
 .button-search:focus {
   outline: none;
+}
+.button-search:hover {
+  background-color: #cccccc;
+  color: #000000;
 }
 
 .btn {
@@ -425,6 +430,7 @@ a:hover {
 }
 .superb-list li {
   display: flex;
+  margin-bottom: 20px;
 }
 .superb-list li i {
   color: #02baab;

@@ -2,14 +2,18 @@
   outline:none;
 }
 .button-search{
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   border: none;
   background: none;
   color: $color-grey-blue;
   outline: none;
   &:focus{
     outline: none;
+  }
+  &:hover{
+    background-color: $color-light-grey;
+    color: $color-black;
   }
 }
 .btn{

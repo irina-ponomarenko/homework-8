@@ -140,11 +140,8 @@
     .card-list li:last-child{
         margin-right: 30px;
     }
-    .priz:before{
-        display: none;
-    }
-    .cloud:before{
-        display: none;
+    .update{
+        flex-wrap: nowrap;
     }
 }
 @media screen and (min-width:300px) and (max-width:560px) {
