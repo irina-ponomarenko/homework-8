@@ -194,11 +194,9 @@
     .carousel-control-next-icon{
         display: none;
     }
-    .priz:before{
-        display: none;
-    }
-    .cloud:before{
-        display: none;
+    .superb-list li i{
+      font-size: 20px;
+        margin-right: 10px;
     }
     .row{
         vertical-align: middle;

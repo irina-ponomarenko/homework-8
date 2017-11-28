@@ -108,11 +108,19 @@ display: flex;
     display: flex;
     justify-content: space-around;
     text-align: left;
+    li{
+      display: flex;
+      i{
+        color: $color-blue-green;
+        margin-right: 15px;
+      }
+    }
   }
   .superb {
     li {
       list-style-type: none;
       max-width: 450px;
+      width: 100%;
       position: relative;
     }
   }
