@@ -167,15 +167,24 @@ header {
   border: none;
   border-radius: 0;
   margin-right: 30px;
+  cursor: pointer;
 }
 .btn:focus {
   outline: none;
+}
+.btn:hover {
+  color: white;
+  background-color: #02baab;
 }
 
 .btn--transparent {
   border: 2px solid #02baab;
   background-color: transparent;
   margin-right: 0;
+}
+.btn--transparent:hover {
+  background-color: #02baab;
+  color: white;
 }
 
 .btn--font-green {
@@ -189,6 +198,13 @@ header {
   width: 168px;
   border: 2px solid white;
 }
+.btn--white-border:hover {
+  background-color: white;
+  color: #02baab;
+}
+.btn--white-border:hover i {
+  color: #02baab;
+}
 
 .btn-comment {
   width: 140px;
@@ -201,6 +217,9 @@ header {
 .btn-footer {
   text-transform: none;
   width: 155px;
+}
+.btn-footer:hover i {
+  color: white;
 }
 
 .btn-grey-border {
@@ -260,13 +279,13 @@ header {
 
 .btn-bottom {
   display: flex;
-  align-items: flex-start;
   width: 98px;
   height: 36px;
   border: 2px solid orange;
   color: orange;
   margin-top: 50px;
   outline: none;
+  padding-left: 24px;
 }
 
 .list-header {
@@ -610,6 +629,38 @@ a:hover {
   background-color: #02baab;
 }
 
+.hover-control-next-icon {
+  background-image: none;
+  color: orange;
+  background-color: white;
+}
+.hover-control-next-icon i {
+  text-align: center;
+  position: relative;
+  right: 19px;
+  top: 5px;
+}
+.hover-control-next-icon:hover {
+  color: white;
+  background-color: orange;
+}
+
+.hover-control-prev-icon {
+  background-image: none;
+  background-color: white;
+  color: orange;
+}
+.hover-control-prev-icon i {
+  text-align: center;
+  position: relative;
+  top: 5px;
+  left: 4px;
+}
+.hover-control-prev-icon:hover {
+  color: white;
+  background-color: orange;
+}
+
 .bg-light {
   background: #474747 !important;
 }
@@ -622,14 +673,10 @@ a:hover {
   margin-bottom: 50px;
 }
 
-.chenge-prev {
-  top: 360px;
-  left: 360px;
-}
-
-.chenge-next {
-  top: 360px;
-  right: 320px;
+.chenge-prev-position, .chenge-next-position {
+  bottom: -45px;
+  align-items: flex-end;
+  color: #fff;
 }
 
 .fa-chevron-right {
@@ -639,6 +686,15 @@ a:hover {
 .row {
   max-width: 930px;
   margin: 0 auto;
+}
+
+.chenge-indicators {
+  bottom: -40px;
+}
+.chenge-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
 }
 
 h1 {

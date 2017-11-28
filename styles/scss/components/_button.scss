@@ -25,14 +25,23 @@ width: $width-button;
   border: none;
   border-radius: 0;
   margin-right: 30px;
+  cursor: pointer;
   &:focus{
     outline: none;
+  }
+  &:hover{
+    color: $color-white;
+    background-color: $color-blue-green;
   }
 }
 .btn--transparent{
   border: 2px solid $color-blue-green;
   background-color: transparent;
   margin-right: 0;
+  &:hover{
+    background-color: $color-blue-green;
+    color:$color-white;
+  }
 }
 .btn--font-green{
   color: $color-blue-green;
@@ -43,6 +52,13 @@ width: $width-button;
 .btn--white-border{
   width: $width-button-big;
   border: 2px solid $color-white;
+  &:hover{
+    background-color: $color-white;
+    color: $color-blue-green;
+    i{
+      color:$color-blue-green;
+    }
+  }
 }
 .btn-comment{
   width: 140px;
@@ -54,6 +70,11 @@ width: $width-button;
 .btn-footer{
   text-transform: none;
   width: 155px;
+  &:hover{
+    i{
+      color: $color-white;
+    }
+  }
 }
 .btn-grey-border{
   border: 1px solid $color-lightgrey;
@@ -109,11 +130,12 @@ width: $width-button;
 }
 .btn-bottom{
   display: flex;
-  align-items: flex-start;
   width: 98px;
   height: 36px;
   border: 2px solid $orange;
   color: $orange;
   margin-top: 50px;
   outline: none;
+  padding-left: 24px;
+
 }
