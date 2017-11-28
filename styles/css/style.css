@@ -1278,6 +1278,9 @@ h3:after {
   flex-direction: column;
   align-items: center;
 }
+.like a {
+  color: #02baab !important;
+}
 
 .like-row {
   padding: 0;

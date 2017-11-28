@@ -73,6 +73,9 @@
   display:flex;
   flex-direction: column;
   align-items: center;
+  a{
+    color: $color-blue-green !important;
+  }
 }
 .like-row{
   padding: 0;
